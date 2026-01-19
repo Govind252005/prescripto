@@ -28,8 +28,8 @@ app.use(cors({
     origin: [
         'http://localhost:5173',
         'http://localhost:5174', 
-        'https://prescripto-frontend.vercel.app',
-        'https://prescripto-admin.vercel.app'
+        'https://prescripto-frontend-pied.vercel.app',
+        'https://prescripto-admin-ebon-seven.vercel.app'
     ]
 }))
 
