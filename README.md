@@ -1,3 +1,6 @@
+Frontend:https://prescripto-frontend-pied.vercel.app
+Admin:https://prescripto-admin-ebon-seven.vercel.app 
+
 # Prescripto - Healthcare Appointment Booking System
 A full-stack healthcare appointment booking application built with React.js, Node.js, Express.js, and MongoDB.
 
