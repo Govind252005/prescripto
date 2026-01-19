@@ -15,7 +15,14 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: [
+        'http://localhost:5173',
+        'http://localhost:5174', 
+        'https://your-frontend-domain.vercel.app',
+        'https://your-admin-domain.vercel.app'
+    ]
+}))
 
 // api endpoints
 app.use("/api/user", userRouter)
